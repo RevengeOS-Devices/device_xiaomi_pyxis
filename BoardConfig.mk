@@ -17,6 +17,9 @@ TARGET_OTA_ASSERT_DEVICE := pyxis
 # Display
 TARGET_SCREEN_DENSITY := 440
 
+# Face Unlock
+TARGET_FACE_UNLOCK_SUPPORTED := true
+
 # FM
 BOARD_HAS_QCA_FM_SOC := "cherokee"
 BOARD_HAVE_QCOM_FM := true
